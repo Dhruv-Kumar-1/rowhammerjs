@@ -666,5 +666,5 @@ int main(int argc, char** argv) {
 
   //fprintf(stderr,"[!] Starting the testing process...\n");
   alarm(number_of_seconds_to_hammer);
-  HammerAllReachableRows(&HammerAddressesStandard, number_of_reads);
+  //HammerAllReachableRows(&HammerAddressesStandard, number_of_reads);
 }
